@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=levelBoard()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ levelBoard.\r\n\ \r\n
+comment1.params=
+comment1.target=void\ prepare()
+comment1.text=\r\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\ That\ is\:\ create\ the\ initial\r\n\ objects\ and\ add\ them\ to\ the\ world.\r\n
+comment2.params=
+comment2.target=void\ stopSound()
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ It\ makes\ the\ sound\ run\ on\ time\ after\ the\ form\ or\ levelBoard\ window\ is\ loaded.\r\n
+numComments=4

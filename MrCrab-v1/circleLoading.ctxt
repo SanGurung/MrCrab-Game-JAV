@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=circleLoading()
+comment0.text=\r\n\ Constructor\ for\ circleLoading\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ circleLoading\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ animate()
+comment2.text=\r\n\ animate()\ checks\ timer\ \r\n
+comment3.params=
+comment3.target=void\ changeImage()
+comment3.text=\r\n\ changeImage()\ changes\ the\ image\ of\ the\ circle.\r\n\ imageNumber\ is\ the\ number\ of\ image\ or\ more\ specifically\ circle-X.png\ (circle-1.png)\r\n\ X\ is\ the\ imageNumber.\ There\ is\ 3\ image\ which\ is\ \r\n\ circle-1.png\ \r\n\ circle-2.png\r\n\ circle-3.png\r\n\r\n\ Hence,\ setImage("circle-"\ +\ this.imageNumber\ +\ ".png");\ sets\ those\ 3\ images\ in\ sequence.\r\n
+numComments=4

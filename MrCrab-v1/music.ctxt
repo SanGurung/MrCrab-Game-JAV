@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ mute()
+comment0.text=\r\n\ mute()\ and\ volume()\ method\ are\ here\ for\ future\ extension,\ right\ now\ volume\ is\ accessed\ to\ check\ volume\ status.\r\n
+comment1.params=
+comment1.target=void\ volume()
+numComments=2

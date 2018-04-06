@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DancingCrab()
+comment0.text=\r\n\ Dancingcrab()\ is\ constructor\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ DancingCrab\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ animate()
+comment2.text=\r\n\ animate()\ checks\ timer\ \r\n
+comment3.params=
+comment3.target=void\ changeImage()
+comment3.text=\r\n\ changeImage()\ changes\ the\ image\ of\ the\ crab.\r\n\ imageNumber\ is\ the\ number\ of\ image\ or\ more\ specifically\ big-crab-X.png\ (big-crab-1.png)\r\n\ X\ is\ the\ imageNumber.\ There\ is\ 3\ image\ which\ is\ \r\n\ big-crab-1.png\ \r\n\ big-crab-2.png\r\n\ big-crab-3.png\r\n\r\n\ Hence,\ setImage("big-crab-"\ +\ this.imageNumber\ +\ ".png");\ sets\ those\ 3\ images\ in\ sequence.\r\n
+comment4.params=pointA\ pointB\ fixedY
+comment4.target=void\ crabMove(int,\ int,\ int)
+comment4.text=\r\n\ crabMove\ function\ can\ be\ used\ to\ set\ location\ of\ a\ actor.\r\n\ This\ function\ is\ pretty\ basic.\r\n\ \r\n\ x\ axis\ will\ be\ incremented\ by\ 1\ if\ moveTowards\ is\ 1.\r\n\ movetowards\=1\ means\ move\ towards\ point\ A.\r\n\ \r\n\ x\ axis\ will\ be\ decremented\ by\ 1\ if\ moveTowards\ is\ 0.\r\n\ movetowards\=0\ means\ move\ towards\ point\ B.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ |\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ |\r\n\ \ A----------------------B\ \ \ \ (Y\ Axis)\r\n\ @Param\ pointA\ is\ the\ point\ A\ where\ the\ crab\ will\ start\ moving\ from\ which\ means\ crab\ will\ move\ from\ A\ to\ B.\r\n\ @Param\ pointB\ is\ the\ point\ B\ where\ the\ Crab\ will\ move\ towards\ and\ crab\ will\ move\ towards\ B\ to\ A\ once\ it\ reach\ B.\r\n\r\n
+numComments=5

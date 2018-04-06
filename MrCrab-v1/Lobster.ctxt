@@ -1,0 +1,30 @@
+#BlueJ class context
+comment0.params=level\ iCrab
+comment0.target=Lobster(int,\ mrCrab)
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Lobster\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ huntCrab()
+comment2.text=\r\n\ This\ method\ is\ called\ in\ act\ to\ check\ if\ the\ lobster\ has\ eaten\ crab\ which\ means\ if\ crab\ is\ in\ same\ location\ as\ lobster.\r\n
+comment3.params=
+comment3.target=boolean\ crabExist()
+comment4.params=
+comment4.target=void\ ultimateHunt()
+comment4.text=\r\n\ \r\n
+comment5.params=xC\ yC\ xL\ yL
+comment5.target=void\ moveTowardsCrab(int,\ int,\ int,\ int)
+comment5.text=\r\n\ This\ method\ enables\ Lobster\ to\ move\ towards\ crab.\r\n\ It\ calculates\ the\ coordinates\ of\ Crab\ and\ sets\ the\ x\ and\ y\ coordinate\ of\ Lobster\ accordingly.\r\n
+comment6.params=xC\ yC\ xL\ yL
+comment6.target=void\ turnTowardsCrab(int,\ int,\ int,\ int)
+comment6.text=\r\n\ This\ method\ makes\ the\ lobster\ face\ towards\ the\ crab\ to\ mimic\ natural\ movement(*attempt).\r\n
+comment7.params=
+comment7.target=void\ scout()
+comment7.text=\r\n\ This\ method\ is\ called\ in\ act\ to\ enable\ the\ lobster\ to\ scout\ or\ have\ a\ random\ movement.\r\n
+comment8.params=
+comment8.target=void\ animate()
+comment8.text=\r\n\ animate()\ checks\ timer\ and\ changes\ the\ image\ of\ the\ lobster\ according\ to\ the\ time.\r\n\ timer%17\=\=0\ checks\ if\ current\ timer\ is\ divisible\ by\ 17\ giving\ remainder\ 17.\r\n\ Hence\ it\ helps\ to\ keep\ an\ interval\ of\ about\ 17\ act()\ cycles.\r\n
+comment9.params=
+comment9.target=void\ changeImage()
+comment9.text=\r\n\ changeImage()\ changes\ the\ image\ of\ the\ Lobster.\r\n\ imageNumber\ is\ the\ number\ of\ image\ or\ more\ specifically\ Lobster-sprite-X.png\ (Lobster-sprite-1.png)\r\n\ X\ is\ the\ imageNumber.\ There\ is\ 3\ image\ which\ is\ \r\n\ Lobster-sprite-1.png\ \r\n\ Lobster-sprite-2.png\r\n\ Lobster-sprite-3.png\r\n\r\n\ Hence,\ setImage("lobster-sprite-"\ +\ imageNumber\ +\ ".png");\ sets\ those\ 3\ images\ in\ sequence.\r\n
+numComments=10

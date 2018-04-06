@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=start
+comment0.target=StartGame(boolean)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ StartGame.\r\n\ setSpeed(50)\ sets\ the\ speed\ of\ the\ game\ to\ 50\ which\ means\ the\ act()\ method\ will\ be\ called\ accordingly.\r\n
+comment1.params=
+comment1.target=StartGame()
+comment2.params=
+comment2.target=void\ prepare()
+comment2.text=\r\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\ That\ is\:\ create\ the\ initial\r\n\ objects\ and\ add\ them\ to\ the\ world.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ It\ makes\ the\ sound\ run\ on\ time\ after\ the\ form\ or\ StartGame\ window\ is\ loaded.\r\n
+comment4.params=
+comment4.target=void\ reset()
+comment4.text=\r\n\ Reset\ the\ game\r\n
+numComments=5

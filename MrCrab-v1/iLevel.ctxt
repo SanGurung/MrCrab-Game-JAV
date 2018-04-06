@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=iLevel()
+comment1.params=played\ starsPoints
+comment1.target=void\ setLevel(boolean,\ int)
+comment2.params=
+comment2.target=boolean\ isPlayed()
+comment2.text=\r\n\ This\ method\ tell\ the\ caller\ that\ if\ the\ level\ is\ played\ already.\r\n
+comment3.params=
+comment3.target=int\ getPointsAchieved()
+comment3.text=\r\n\ Points\ achieved\ in\ the\ game\ which\ is\ 0-3\ stars\r\n
+numComments=4

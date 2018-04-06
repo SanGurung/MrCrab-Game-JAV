@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=fileName
+comment0.target=boolean\ verifyFile(java.lang.String)
+comment0.text=\r\n\ Creates\ a\ file\ with\ arraylist\ of\ level\ but\ with\ default\ value.\r\n
+comment1.params=fileName
+comment1.target=void\ checkFile(java.lang.String)
+comment2.params=fileName
+comment2.target=java.util.ArrayList\ readFile(java.lang.String)
+comment2.text=\r\n\ This\ method\ is\ called\ to\ read\ the\ file\ and\ to\ get\ the\ arraylist\ for\ further\ use.\r\n
+comment3.params=level\ points
+comment3.target=boolean\ saveProgress(int,\ int)
+comment3.text=\r\n\ This\ method\ is\ called\ to\ save\ game\ progress\ or\ to\ save\ the\ points\ of\ each\ level\r\n\ \r\n\ @param\ level\ It\ is\ the\ level\ the\ game\ is\ at.\r\n\ @param\ points\ Points\ are\ the\ bonusPoints\ which\ range\ from\ 0-3\ which\ is\ the\ star\ in\ each\ level.\r\n
+numComments=4

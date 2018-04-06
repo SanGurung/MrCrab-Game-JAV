@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=playMusic
+comment0.target=Volume(boolean)
+comment1.params=sound
+comment1.target=void\ setVolume(boolean)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Volume\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ stopMusic()
+comment4.params=
+comment4.target=void\ prepareVolume()
+comment4.text=\r\n\ Checks\ the\ volume\ status\ and\ sets\ image\ accordingly.\r\n
+comment5.params=
+comment5.target=void\ checkVolume()
+comment5.text=\r\n\ When\ user\ click\ the\ mute\ button,\ it\ will\ stop\ the\ sound\ from\ playing\ further.\r\n\ if\ clicked\ and\ volume\ is\ on\ it\ will\ change\ the\ volume\ image\ to\ mute.jpg\r\n\ and\ sets\ image\ to\ volume\ if\ clicked\ when\ it\ is\ mute\ image.\r\n
+numComments=6

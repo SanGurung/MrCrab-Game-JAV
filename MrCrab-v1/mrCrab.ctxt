@@ -1,0 +1,32 @@
+#BlueJ class context
+comment0.params=sc\ numberOfWormsToEat\ level
+comment0.target=mrCrab(score,\ int,\ int)
+comment0.text=\r\n\ Constructor\ for\ mrCrab\ class\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ mrCrab\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ continuousWalk()
+comment2.text=\r\n\ This\ method\ is\ should\ be\ called\ in\ mrCrab\ method\ to\ ensure\ crab\ movement.\ If\ right\ or\ left\ key\ is\ pressed\ it\ turns\r\n
+comment3.params=
+comment3.target=boolean\ isIdleForLong()
+comment3.text=\r\n\ This\ methods\ could\ be\ used\ by\ lobster\ to\ get\ the\ idle\ time.\ If\ it\ is\ idle\ for\ long\ time\ Lobster\ will\ use\ its\ ultimateHunt\ method.\r\n
+comment4.params=
+comment4.target=void\ advancedWalk()
+comment4.text=\r\n\ This\ method\ is\ should\ be\ called\ in\ mrCrab\ method\ to\ ensure\ crab\ movement.\r\n\ This\ method\ is\ to\ be\ used\ instead\ of\ continuousWalk()\r\n\ If\ right\ or\ left\ key\ is\ pressed\ it\ turns\ and\ if\ up\ or\ down\ key\ is\ pressed\ it\ moves.\r\n\ Hence\ movement\ is\ combination\ of\ right\ or\ left\ key\ with\ up\ or\ down\ key.\r\n
+comment5.params=v
+comment5.target=void\ gamersStyleCrabMove(int)
+comment5.text=\r\n\ This\ method\ is\ gamer\ style\ crab\ movement\ or\ use\ up,down,right\ &\ left\ key\ to\ move\ the\ crab\ around.\r\n
+comment6.params=
+comment6.target=void\ animate()
+comment6.text=\r\n\ animate()\ checks\ timer\ and\ changes\ the\ image\ of\ the\ crab\ according\ to\ the\ time.\r\n\ timer%17\=\=0\ checks\ if\ current\ timer\ is\ divisible\ by\ 17\ giving\ remainder\ 17.\r\n\ Hence\ it\ helps\ to\ keep\ an\ interval\ of\ about\ 17\ act()\ cycles.\r\n
+comment7.params=
+comment7.target=void\ eatWorm()
+comment7.text=\r\n\ This\ method\ is\ called\ to\ eat\ the\ worm\ which\ means\ if\ worm.class\ is\ in\ same\ location\ as\ crab\ then\ remove\ worm.\r\n
+comment8.params=
+comment8.target=boolean\ missionAccomplished()
+comment8.text=\r\n\ \r\n
+comment9.params=
+comment9.target=void\ changeImage()
+comment9.text=\r\n\ changeImage()\ changes\ the\ image\ of\ the\ mrCrab.\r\n\ imageNumber\ is\ the\ number\ of\ image\ or\ more\ specifically\ crab-sprite-X.png\ (crab-sprite-1.png)\r\n\ X\ is\ the\ imageNumber.\ There\ is\ 3\ image\ which\ is\ \r\n\ crab-sprite-1.png\ \r\n\ crab-sprite-2.png\r\n\ crab-sprite-3.png\r\n\r\n\ Hence,\ setImage("crab-sprite-"\ +\ imageNumber\ +\ ".png");\ sets\ those\ 3\ images\ in\ sequence.\r\n
+numComments=10

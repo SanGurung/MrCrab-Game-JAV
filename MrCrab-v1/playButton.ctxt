@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=start\ sound
+comment0.target=playButton(boolean,\ greenfoot.GreenfootSound)
+comment0.text=\r\n\ Constructor\ for\ playButton\ class.\r\n\ \r\n\ @param\ sound\ is\ the\ Sound/music\ which\ will\ be\ played\ by\ the\ start\ form,\ hence\ to\ stop\ it\ from\ playing\ further\ this\ variable\ is\ sent\ to\ stop\ the\ sound.\r\n\ @param\ level\ is\ the\ level\ of\ the\ game.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ playButton\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=2
