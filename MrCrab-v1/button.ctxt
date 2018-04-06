@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=button()
+comment0.text=\r\n\ Act\ -\ do\ whatever\ the\ button\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment1.params=
+comment1.target=int\ isMouseClicked()
+comment1.text=\r\n\ It\ is\ the\ method\ to\ enable\ the\ button\ to\ react\ to\ mouse\ over,\ mouse\ down\ and\ mouse\ click.\r\n\ \r\n\ @return\ status\ \ It\ return\ status\ which\ is\ 0\ or\ 1.\ If\ its\ 1\ it\ means\ mouse\ was\ clicked.\r\n
+comment2.params=nX\ nButtonName
+comment2.target=void\ setSettings(greenfoot.Actor,\ java.lang.String)
+comment2.text=\r\n\ This\ method\ sets\ the\ sub\ class\ button\ or\ Actor\ nx\ to\ button\ class\ so\ that\ isMouseClicked\ can\ set\ the\ image\ for\ the\ button.\r\n\ \r\n\ @param\ nX\ is\ a\ Actor\ or\ the\ subclass\ button.\ Sub\ class\ button\ such\ as\ playButton\ can\ use\ it's\ isMouseClicked\ method.\r\n\ @param\ nButtonName\ is\ the\ name\ of\ the\ button\ such\ as\ "play",\ "retry"\ which\ would\ be\ the\ image\ file\ name.\r\n
+comment3.params=sound
+comment3.target=void\ backgroundSound(greenfoot.GreenfootSound)
+comment3.text=\r\n\ @param\ sound\ is\ the\ Sound/music\ which\ was\ being\ played\ by\ startForm.\ Its\ passed\ to\ stop\ it\ when\ button\ is\ clicked.\r\n
+numComments=4
